@@ -20,16 +20,67 @@ a {
 	width: 90%;
 	margin: 0 auto;
 	text-align: left;
+	
+}
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
 }
 body ul {
 	font-family: helvetica;
 }
-header {
-	border: 1px solid;
-}
+
 header h1 {
-	border: 1px solid;
+	
+	float: left;
+	padding: 15px 0;
+	color: #1DD3E9;
 }
 header ul {
-	border: 1px solid;
+	
+	float: right;
+}
+header ul li {
+	display: inline-block;
+}
+header ul li a {
+	display: inline-block;
+	padding: 25px 40px;
+}
+header ul li a:hover {
+	background-color: #1DD3E9;
+	color: white;
+}
+.active {
+	background-color: #1DD3E9;
+	color: white;
+}
+.banner {
+	height: 65vh;
+	background-image: url('../img/PPG.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(29, 211, 233, 0.6);
+}
+h2 {
+	color: white;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid white;
+}
+section {
+	padding: 50px 0;
 }
