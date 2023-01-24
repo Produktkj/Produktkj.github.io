@@ -17,7 +17,7 @@ a {
 	margin-right: 10px;
 }
 .container {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
 	text-align: left;
 	
@@ -34,7 +34,7 @@ body ul {
 header h1 {
 	
 	float: left;
-	padding: 15px 0;
+	padding: 10px 0;
 	color: #1DD3E9;
 }
 header ul {
@@ -46,7 +46,7 @@ header ul li {
 }
 header ul li a {
 	display: inline-block;
-	padding: 25px 40px;
+	padding: 15px 20px;
 }
 header ul li a:hover {
 	background-color: #1DD3E9;
@@ -73,7 +73,6 @@ header ul li a:hover {
 	right: 0;
 	left: 0;
 	bottom: 0;
-	background-color: rgba(29, 211, 233, 0.6);
 }
 h2 {
 	color: white;
@@ -83,4 +82,41 @@ h2 {
 }
 section {
 	padding: 50px 0;
+}
+section h3 {
+	text-align: center;
+	padding: 20px 0;
+	color: #1DD3E9;
+	margin-bottom: 10px;
+}
+.about p {
+	color: gray;
+}
+.box {
+
+}
+.box .col-3 {
+	width: 25%;
+	padding: 20px;
+	box-sizing: border-box;
+	color: #1DD3E9;
+	float: left;
+}
+.icon {
+	width: 70px;
+	height: 70px;
+	border: 1px solid;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	margin: 0px auto;
+}
+.box .col-3 h4 {
+	margin: 15px 0;
+	text-align: center;
+}
+.col-3 img {
+	width: 40px;
+	height: 40px;
+	margin-top: 15px;
 }
