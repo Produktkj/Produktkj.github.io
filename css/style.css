@@ -115,8 +115,29 @@ section h3 {
 	margin: 15px 0;
 	text-align: center;
 }
+.box .col-3 h3 {
+	margin: 15px 0;
+	text-align: center;
+}
 .col-3 img {
 	width: 40px;
 	height: 40px;
 	margin-top: 15px;
+}
+.about img {
+	border: 5px solid #1DD3E9;
+	border-radius: 20%;
+	margin-bottom: 20px;
+}
+.about p {
+	border: 5px solid #1DD3E9;
+	padding: 10px;
+}
+.skill p {
+	text-align: center;
+
+}
+.contact p {
+	text-align: center;
+	margin-top: 0px;
 }
